@@ -53,5 +53,5 @@ kind: StorageClass
 metadata:
   name: storage-rabbitmq
 provisioner: k8s.io/minikube-hostpat
-reclaimPolicy: Retain
+reclaimPolicy: Delete
 volumeBindingMode: Immediate
